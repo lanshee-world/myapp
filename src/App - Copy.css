@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Firstcomponent{
+  background-color: aquamarine;
+}
+.Secondcomponent{
+  background-color: aqua;
+}
+.Contactus{
+  background-color: cadetblue;
+}
+.Help{
+  background-color: cornflowerblue;
+}
+.Thirdcomponent{
+  background-color: darkcyan;
+}
+.Fourthcomponent{
+  background-color: darkseagreen;
+}
+.Fifthcomponent{
+  background-color: aliceblue;
+}
+.Sixthcomponent{
+  background-color: darkturquoise;
+}
+.Notfound{
+  font-size: 50px;
+  color: red;
+  font-weight: 900;
+}
+nav{
+  background-color: aquamarine;
+  padding: 20px;
+}
+.navlinks{
+  margin: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: aquamarine;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.navlinks:hover{
+  background-color: bisque;
+  color: white;
+}
